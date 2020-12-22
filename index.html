@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse code translator</title>
+    <style>
+        textarea{
+            height: 30vh;
+            width: 30%;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 8px;
+            margin-bottom: 16px;
+            padding: 0.5rem;
+            text-align: center;
+            opacity: 50%;
+        }
+
+        #output{
+            border: 2px solid rgb(0, 0, 0);
+            height: 30vh;
+            width: 30%;
+            margin: 1rem;
+            margin-top: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            padding: 0.5rem;
+            background-color: rgb(255, 255, 255);
+            opacity: 50%;
+        }
+    </style>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 class="title">MORSE TRANSLATOR</h1>
+    <div style="font-size: larger; margin-top: 1rem; margin-bottom: 2rem;"> Incase you travel through a Blackhole</div>
+    <textarea id="txt-input" placeholder="Enter english text"></textarea>
+    <button id="btn-translate" class="btn">Translate</button>
+
+    <div id="output"></div>
+    <script src="app.js" text="text/javascript"></script>
+</body>
+</html>

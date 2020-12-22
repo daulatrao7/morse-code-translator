@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+body{
+    background-image: url(https://images8.alphacoders.com/100/thumb-1920-1007346.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Frijole', cursive;
+    color: rgb(255, 255, 255);
+
+}
+
+.btn{
+    padding: 0.5rem;
+    width: 150px;
+    background-color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
+
